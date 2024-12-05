@@ -1,0 +1,60 @@
+body{
+    font-family: "Titillium Web", sans-serif;
+    background-image: url(../images/markus-spiske-PsRUMc7vilg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #0000009c;
+    background-blend-mode: multiply;
+    min-height: 100vh;
+}
+
+a:hover{
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+
+h1,h2{
+    color: beige ;
+    font-size: 40px;
+}
+
+input[type="email"],input[type="password"],input[type="text"]{
+    background-color: #181717;
+    color: #fff !important;
+}
+
+input::placeholder{
+    color: rgb(134, 134, 128) !important;
+}
+
+.form-control:focus{
+    box-shadow: 0 0 0 0 transparent !important;
+    background-color: #181717;
+    border-color: #fff;
+}
+
+button{
+    border: 1px solid #fff !important;
+    color: #fff !important;
+}
+
+button:hover{
+    background-color: #fff !important;
+    color: #000 !important; 
+}
+
+nav{
+    background-color:#000000ab;
+}
+
+.box{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    background-color: #000000d7;
+    margin-top: 50px;
+}
+
+#welcomeMessage{
+    transform: translateY(50%);
+}
+
+

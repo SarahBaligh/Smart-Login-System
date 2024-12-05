@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center align-items-center py-5">
+        <div class="box p-5 rounded-3">
+            <h1 class="text-center fw-semibold">Smart Login System</h1>
+            <input type="text" class="form-control rounded-1 my-3" name="name" id="signupUserName"
+                placeholder="Enter your name">
+
+            <input type="email" class="form-control rounded-1 my-3" name="email" id="signupEmail"
+                placeholder="Enter your email">
+
+            <input type="password" class="form-control rounded-1 my-3" name="password" id="signupPassword"
+                placeholder="Enter your password">
+            <div id="alert" class="text-danger d-none p-0 mb-2 " role="alert">
+                'min length 8 (must contain atleast one character and atleast one digit)'
+            </div>
+
+            <div id="error"></div>
+
+            <button id="signupBtn" class="btn w-100 mt-3 rounded-1">Sign Up</button>
+
+            <p class="text-white text-center my-3">You have an account? <a id="signinAnchor"
+                    class="fw-medium text-white text-decoration-none">Sign In</a></p>
+        </div>
+
+    </div>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/signup.js"></script>
+</body>
+
+</html>
